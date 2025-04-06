@@ -1,3 +1,5 @@
+import Image1 from "./Image1.jpg"
+
 export type productType = {
   id: string;
   name: string;
@@ -5,13 +7,11 @@ export type productType = {
   price: number;
 };
 
-const Products: productType[] = [
+export const Products: productType[] = [
   {
-    id: "11111111",
+    id: "1",
     name: "book",
-    img: "image",
+    img: Image1,
     price: 45,
   },
 ];
-
-export default Products;

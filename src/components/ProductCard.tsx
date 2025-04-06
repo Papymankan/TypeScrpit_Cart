@@ -7,7 +7,7 @@ export default function ProductCard({ name, price, id, img }: productType) {
     <Card>
       <CardContent className="p-4">
         <img
-          src={"img"}
+          src={img}
           className="w-full h-40 object-cover rounded mb-2"
         />
         <h2 className="text-xl font-semibold">{name}</h2>
